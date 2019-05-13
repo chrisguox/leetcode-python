@@ -2,6 +2,7 @@ class Solution:
     """
     哨兵，记录重复字符的位置，往后继续计算下一个子串；
     """
+
     def lengthOfLongestSubstring(self, s: str) -> int:
         sub_string_dict = {}
         max_len = 0
