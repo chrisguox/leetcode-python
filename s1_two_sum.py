@@ -2,7 +2,7 @@ class Solution:
     """
     利用map(dict)做处理，时间复杂度为 O(n);
     """
-    def two_sum(self, nums, target):
+    def twoSum(self, nums, target):
         nums_dict = {}
         for index, num in enumerate(nums):
             addend = target - num
